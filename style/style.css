@@ -67,6 +67,15 @@ header .nav {
      color: rgb(0, 0, 0);    
 }
 
+/*.circle {
+         border-radius: 50%;
+         height: 30px;
+         width: 30px;
+         margin: 20px;
+         background-color: rgb(31, 31, 255);
+
+}*/
+
 main {
          font-size: 20px;
          font-weight: 500;
