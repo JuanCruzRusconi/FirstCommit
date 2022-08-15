@@ -1,15 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "fuentes";
+@import "body";
 
-* {
-    padding: 0;
-    margin: 0;
-}
 
-body {
-     background-color: rgb(0, 0, 0);
-     color: white;
-     font-family: 'Roboto', sans-serif;
-}
+
 
 h1 {
      background-color: rgb(0, 0, 151);
@@ -176,10 +169,10 @@ img {
     }
    
 
-    header .nav {
+    header .nav {  
         padding: 10px; 
-        margin: 30px;    
-        height: 525px;   
+        margin: 20px 25px 20px 25px;    
+        height: 555px;   
         background-color: rgb(59, 59, 59);
                     
 }
@@ -187,8 +180,9 @@ img {
       
 
        .ul-flex {
+            width: 100%;
             padding: 10px;
-            margin: 10px;
+            margin: 0px 0px 15px 0px; 
             display: flex;
             flex-direction: column;
             
@@ -240,8 +234,8 @@ img {
 
     header .nav {
                 padding: 10px; 
-                margin: 30px;    
-                height: 525px;   
+                margin: 20px 25px 20px 25px;    
+                height: 555px;   
                 background-color: rgb(59, 59, 59);
             
 }
@@ -249,8 +243,9 @@ img {
 
 
     .ul-flex {
+              width: 100%;
               padding: 10px;
-              margin: 10px;
+              margin: 0px 0px 15px 0px;
               display: flex;
               flex-direction: column;
     
@@ -303,16 +298,17 @@ img {
 
  
          .ul-flex {
+           width: 100%;
            height: 50px;
-           padding: 30px;
-           margin: 0px 20px 10px 20px;
+           padding: 20px;
+           margin: 8px 10px 10px 10px;
            display: grid;
            grid-template-columns: repeat(3, 1fr);
            gap: 20px;
    }
        
          .ul-flex li {
-           margin: 10px 10px 1px 10px;
+           margin: 0px 10px 5px 10px;
            padding: 10px;
     
    }
